@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/signup_back_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_full_gap_margin"
+                    android:paddingLeft="@dimen/activity_full_margin"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_full_gap_margin"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Let's Get Started!"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/activity_large_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create an account for RYDO bikes" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="@dimen/activity_full_margin"
+                        android:paddingVertical="@dimen/activity_large_text_size">
+
+                        <EditText
+                            android:id="@+id/fullNameForm"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/form_design"
+
+                            android:drawablePadding="@dimen/activity_half_margin"
+                            android:hint="Full Name"
+                            android:nextFocusDown="@id/emailForm"
+                            android:paddingLeft="@dimen/activity_text_full_size"
+                            android:paddingRight="@dimen/activity_half_margin"
+                            android:singleLine="true" />
+
+                        <EditText
+                            android:id="@+id/emailForm"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="@dimen/activity_text_full_size"
+                            android:background="@drawable/form_design"
+                            android:drawablePadding="@dimen/activity_half_margin"
+                            android:hint="Phone"
+                            android:inputType="number"
+                            android:nextFocusDown="@id/signUpPasswordForm"
+                            android:paddingLeft="@dimen/activity_text_full_size"
+                            android:paddingRight="@dimen/activity_half_margin"
+                            android:singleLine="true" />
+
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/activity_large_text_size">
+
+                            <EditText
+                                android:id="@+id/signUpPasswordForm"
+                                android:layout_width="fill_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/form_design"
+                                android:drawablePadding="@dimen/activity_half_margin"
+                                android:hint="Password"
+                                android:inputType="textPassword"
+                                android:paddingLeft="@dimen/activity_text_full_size"
+                                android:paddingRight="@dimen/activity_half_margin"
+                                android:singleLine="true" />
+
+
+                            <ImageView
+                                android:id="@+id/register_show_pass_btn"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/activity_margin_padding_fifteen"
+                                android:alpha=".5"
+                                android:padding="@dimen/activity_margin_padding_fifteen"
+                                android:src="@drawable/ic_baseline_visibility_off_24" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/activity_full_margin"
+                            android:text="Password must be 6 character(1-9,a-z)" />
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/signup_create_account"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/login_btn_drawable"
+                        android:paddingHorizontal="@dimen/activity_large_text_size"
+                        android:text="Create"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/activity_large_text_size">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Already have an account?" />
+
+                        <TextView
+                            android:id="@+id/signin_back_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/activity_half_margin"
+                            android:text="Login here"
+                            android:textColor="#2E88FD"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

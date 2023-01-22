@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rydo Bikes</string>
+    <string name="valid_required">Required</string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+
+</resources>

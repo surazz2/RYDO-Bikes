@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539290540640",
+    "project_id": "rydobikers",
+    "storage_bucket": "rydobikers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539290540640:android:fb6de98545245c99d04105",
+        "android_client_info": {
+          "package_name": "com.example.rydobikes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539290540640-iepvk92h06g2t5k562fbbespg4jh919t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBudjBIQDWhaIcsJ0XGXlgu5H6w4n69RKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539290540640-iepvk92h06g2t5k562fbbespg4jh919t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

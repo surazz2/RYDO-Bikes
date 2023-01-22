@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_two">2dp</dimen>
+    <dimen name="activity_half_margin">5dp</dimen>
+    <dimen name="activity_half_eight">8dp</dimen>
+    <dimen name="activity_full_margin">10dp</dimen>
+    <dimen name="activity_half_inch_margin">6dp</dimen>
+    <dimen name="activity_full_inch_margin">12dp</dimen>
+    <dimen name="activity_half_gap_margin">15dp</dimen>
+    <dimen name="activity_eighteen_gap">18dp</dimen>
+    <dimen name="activity_full_gap_margin">20dp</dimen>
+    <dimen name="activity_title_name">26dp</dimen>
+    <dimen name="activity_text_full_size">18dp</dimen>
+    <dimen name="activity_small_size">3dp</dimen>
+    <dimen name="activity_large_text_size">25dp</dimen>
+    <dimen name="activity_forty">40dp</dimen>
+
+    <dimen name="activity_margin_padding_two">2dp</dimen>
+    <dimen name="activity_margin_padding_five">5dp</dimen>
+    <dimen name="activity_margin_padding_eight">8dp</dimen>
+    <dimen name="activity_margin_padding_ten">10dp</dimen>
+    <dimen name="activity_margin_padding_six">6dp</dimen>
+    <dimen name="activity_margin_padding_twelve">12dp</dimen>
+    <dimen name="activity_margin_padding_fifteen">15dp</dimen>
+    <dimen name="activity_margin_padding_eighteen">18dp</dimen>
+    <dimen name="activity_margin_padding_twenty">20dp</dimen>
+    <dimen name="activity_margin_padding_twenty_six">26dp</dimen>
+    <dimen name="activity_margin_padding_three">3dp</dimen>
+    <dimen name="activity_margin_padding_twenty_five">25dp</dimen>
+    <dimen name="activity_margin_padding_forty">40dp</dimen>
+    <dimen name="vertical_gap">12dp</dimen>
+    <dimen name="horizontal_gap">10dp</dimen>
+    <dimen name="padding_gap">8dp</dimen>
+</resources>
